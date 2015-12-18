@@ -1,0 +1,7 @@
+library(datasets)
+Rprof()
+fit<-lm(y-x1+x2)
+Rprof(NULL)
+y <- rnorm(100,10,1)
+x1 <- rnorm(100,10,1)
+x2 <- rnorm(100,10,1)
